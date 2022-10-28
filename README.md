@@ -6,7 +6,7 @@ Facial Keypoins Detection is a kaggle competition.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://starter-kit.streamlitapp.com/)
 
-[![Kaggle Competition](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png)](https://www.kaggle.com/competitions/facial-keypoints-detection)
+[! Kaggle Competition](https://www.kaggle.com/competitions/facial-keypoints-detection)
 
 ## Section Heading
 
