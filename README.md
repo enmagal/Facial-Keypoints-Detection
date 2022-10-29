@@ -1,6 +1,6 @@
 # 🥸 Facial-Keypoints-Detection
 
-<img src="https://media3.giphy.com/media/l2R0fcsoWBJkhyaLS/giphy.gif" width="140" height="140" />
+<img src="https://media3.giphy.com/media/l2R0fcsoWBJkhyaLS/giphy.gif" width="340" height="340" />
 
 Facial Keypoins Detection is a [kaggle competition](https://www.kaggle.com/competitions/facial-keypoints-detection).
 
