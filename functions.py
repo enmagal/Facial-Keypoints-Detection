@@ -57,9 +57,17 @@ def prepare_x_y(train):
     return X_train, y_train
 
 def load_data():
-    train_data = pd.read_csv('./data/training.csv')
+    train_data = pd.read_csv("./data/training_0.csv")
 
-    test_data = pd.read_csv('./data/test.csv')
+    for i in range(9):
+        df = pd.read_csv("./data/training_" + str(i+1) + ".csv")
+        train_data = pd.concat([train_data, df])
+
+    test_data = pd.read_csv("./data/test_0.csv")
+
+    for i in range(2):
+        df_test = pd.read_csv("./data/test_" + str(i+1) + ".csv")
+        test_data = pd.concat([test_data, df])
     
     lookId_data = pd.read_csv('./data/IdLookupTable.csv')
 
